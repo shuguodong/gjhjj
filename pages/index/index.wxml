@@ -1,0 +1,9 @@
+<view>{{message}}</view>
+<view class="user-{{id}}">用户编号</view>
+<view wx:if="{{condition}}">条件为真</view>
+<checkbox checked='{{false}}'>演习攻略</checkbox>
+<view hidden='{{flag?true:false}}'>隐藏</view>
+<view>{{a+b}}</view>
+<view wx:if="{{arr.length>3}}">长度大于3</view>
+<view>{{"你好,"+name}}</view>
+<view>{{user.name}},{{user.hobby[1]}}</view>

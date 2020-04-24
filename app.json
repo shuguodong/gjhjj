@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dialog/dialog",
+    "pages/myself/myself"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#707070",
+    "navigationBarTitleText": "拉勾网",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_normal.png",
+        "selectedIconPath": "images/icon_pressed.png"
+      },
+      {
+        "text": "对话",
+        "pagePath": "pages/dialog/dialog",
+        "iconPath": "images/icon_normal.png",
+        "selectedIconPath": "images/icon_pressed.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/myself/myself",
+        "iconPath": "images/icon_normal.png",
+        "selectedIconPath": "images/icon_pressed.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
